@@ -1,7 +1,7 @@
 import { NetworkType } from '@bitgo/statics';
 import EthereumCommon from 'ethereumjs-common';
 import { recoverTransaction } from '@celo/contractkit/lib/utils/signing-utils';
-import { RLP } from 'ethers/utils';
+import RLP from 'rlp';
 import BigNumber from 'bignumber.js';
 import { TxData } from '../eth/iface';
 import { InvalidTransactionError, ParseTransactionError } from '../baseCoin/errors';
