@@ -50,6 +50,7 @@
     "ethereumjs-util": "5.2.0",
     "libsodium-wrappers": "^0.7.6",
     "lodash": "^4.17.15",
+    "rlp": "2.2.6",
     "protobufjs": "^6.8.9",
     "stellar-sdk": "^0.11.0",
     "tronweb": "^2.7.2",
