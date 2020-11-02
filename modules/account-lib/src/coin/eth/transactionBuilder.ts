@@ -2,7 +2,7 @@ import { BaseCoin as CoinConfig } from '@bitgo/statics/dist/src/base';
 import EthereumCommon from 'ethereumjs-common';
 import EthereumAbi from 'ethereumjs-abi';
 import BigNumber from 'bignumber.js';
-import { RLP } from 'ethers/utils';
+import RLP from 'rlp';
 import * as Crypto from '../../utils/crypto';
 import { BaseTransaction, BaseTransactionBuilder, TransactionType } from '../baseCoin';
 import { BaseAddress, BaseKey } from '../baseCoin/iface';
